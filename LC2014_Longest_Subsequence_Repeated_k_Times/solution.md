@@ -96,7 +96,7 @@ public:
 - Time complexity: $O(n!\times\lfloor\frac{n}{k}\rfloor!)$
     - Let us consider $m=\lfloor\frac{n}{k}\rfloor$, for a particular prefix length $i$, number of different possible strings from $m$ characters is $^mP_i$, we start from $i=1$ and gradually move towards the entire length $i=m$. Hence the total number of steps the outer while loop will perform is given by, 
 
-$$S = \sum_{i=1}^m{^nP_1} = \sum_{i=1}^m\frac{m!}{(m-i)!} = m!\sum_{i=1}^m\frac{1}{(m-i)!}$$
+$$S = \sum_{i=1}^m{^mP_i} = \sum_{i=1}^m\frac{m!}{(m-i)!} = m!\sum_{i=1}^m\frac{1}{(m-i)!}$$
 
 - Space complexity: $$O(\lfloor\frac{n}{k}\rfloor!)$$
   - At the end of each breadth, there can be $i!$ elements in the queue. Hence there can be a maximum of $\lfloor\frac{n}{k}\rfloor!$ elements in the queue. 
