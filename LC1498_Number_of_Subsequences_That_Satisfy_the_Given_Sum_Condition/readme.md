@@ -65,5 +65,5 @@ public:
 The solution elegantly handles the combinatorial aspect by using powers of 2, where for each valid range, the number of subsequences is $$2^{(right-left)}$$. This captures all possible combinations of elements between left and right pointers.
 
 # Points to consider
-Even in case when the elements are sorted, let us consider that, in a sorted array $$a_{min}, \ldots,  a_i, a_{i+1}, \ldots, a_{max}$$ is the order of the elements. In original array, as long as a subset consists of $$a_{min}$$ and $$a_{max}$$ with any number of $$a_i$$s, they will always have $$a_{min}$$ as minimum and $$a_{max}$$ as maximum. 
+Even in case when the elements are sorted, let us consider that, in a sorted array $$a_{min}, \ldots,  a_i, a_{i+1}, \ldots, a_{max}$$ is the order of the elements. In original array, as long as a subset consists of $$a_{min}$$ and $$a_{max}$$ with any number of $$a_i$$ s, they will always have $$a_{min}$$ as minimum and $$a_{max}$$ as maximum. 
 
