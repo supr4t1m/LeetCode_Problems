@@ -1,3 +1,6 @@
+LC594. Longest Harmonious Subsequence
+=====================================
+
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 The problem requires finding a subsequence where the maximum and minimum values differ by exactly 1. The key insight is to use a frequency-based approach or a sliding window technique to efficiently find such a subsequence.
