@@ -1,3 +1,6 @@
+LC3304. Find the K-th Character in String Game I
+================================================
+
 # Intuition
 The problem involves generating a character based on the number of set bits in the binary representation of k-1. This is an interesting approach that uses bit manipulation to determine how many times we should move to the next character in the alphabet.
 
