@@ -1,3 +1,6 @@
+LC1498. Number of Subsequences That Satisfy the Given Sum Condition
+===================================================================
+
 # Intuition
 The problem requires finding the number of subsequences where the sum of the minimum and maximum elements is less than or equal to the target. The key insights are:
 1. Sort the array to easily identify min and max elements
