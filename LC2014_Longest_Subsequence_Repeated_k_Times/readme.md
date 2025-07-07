@@ -1,3 +1,6 @@
+LC2014. Longest Subsequence Repeated k Times
+============================================
+
 # Intuition
 The problem requires finding the longest subsequence that is repeated exactly k times in the given string. The key insight is to use a prefix-matching approach with a breadth-first search strategy. 
 
