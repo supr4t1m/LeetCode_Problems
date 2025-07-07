@@ -1,3 +1,6 @@
+LC807. Max Increase to Keep City Skyline
+========================================
+
 # Intuition
 The key insight to solve this problem is to observe that the maximum height that a building can be increased to is the minimum of the maximum height in its row and the maximum height in its column. This is because the skyline from any cardinal direction must not change, which means that the height of each building cannot exceed the maximum height in its row or column.
 
