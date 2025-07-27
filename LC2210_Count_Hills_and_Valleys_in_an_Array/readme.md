@@ -16,7 +16,7 @@ To solve the problem of counting hills and valleys in the given array, we need t
 5. **Return the count**: Finally, we return the total count of hills and valleys found.
 
 # Complexity
-- Time complexity: $$O(n)$$  
+- Time complexity: $$O(n^2)$$  
   We traverse the array once, and in the worst case, we may need to check each element's neighbors, but this is still linear in terms of the number of elements.
 
 - Space complexity: $$O(1)$$  
