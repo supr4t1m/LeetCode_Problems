@@ -17,7 +17,7 @@ To solve the problem of counting hills and valleys in the given array, we need t
 
 # Complexity
 - Time complexity: $$O(n^2)$$  
-  We traverse the array once, and in the worst case, we may need to check each element's neighbors, but this is still linear in terms of the number of elements.
+  We traverse the array once, and in the worst case, for each element, we may need to traverse almost the entire array. 
 
 - Space complexity: $$O(1)$$  
   We use a constant amount of space for variables, regardless of the input size.
