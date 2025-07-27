@@ -1,3 +1,6 @@
+2210\. Count Hills and Valleys in an Array
+=========================================
+
 # Intuition
 To solve the problem of counting hills and valleys in the given array, we need to identify the indices that meet the criteria for being a hill or a valley. A hill is characterized by having neighbors that are both smaller than the current element, while a valley has neighbors that are both larger. The challenge lies in efficiently finding these neighbors while also handling cases where adjacent elements are equal.
 
