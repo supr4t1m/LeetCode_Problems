@@ -1,3 +1,6 @@
+231\. Power of Two
+==================
+
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 We can use bitwise XOR to check whether the bits of the number zero out with pure power of 2. Any additional bits other than that at exponent will not be filtered. 
